@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+html {
+    background: #121212;
+}
+
+.navbar {
+    background-color: #1e1e1e;
+    font-family: 'Roboto', sans-serif;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__content {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+
+#navbar__logo {
+    font-size: 30.5px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f71010, #03cf5144);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+    padding-left: 100px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    padding-left: 200px;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.package {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.package_cont {
+    background-color: #e23939;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.package_price {
+    padding-left: 110px;
+    color: #2bff00;
+}
+
+.package_buy {
+    padding-left: 50px;
+    background-color: #e23939;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-left: 50px;
+}
