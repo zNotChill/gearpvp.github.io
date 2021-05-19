@@ -127,3 +127,273 @@
         margin: 10px 0;
     }
 }
+
+@media screen and (max-width: 1024px) { /* iPad Pro */
+    * {
+        font-size: 35px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 360px) { /* Galaxy Note II, BlackBerry Z30, Moto G4 & Galaxy S5 */
+    * {
+        font-size: 25px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 411px) { /* Pixel 2 & XL */
+    * {
+        font-size: 25px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 320px) { /* iPhone 5/SE & iPhone 6/7/8 */
+    * {
+        font-size: 22.5px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 414px) { /* iPhone 6/7/8 Plus */
+    * {
+        font-size: 28px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 375px) { /* iPhone X */
+    * {
+        font-size: 25px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) { /* iPad */
+    * {
+        font-size: 28.7px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 540px) { /* Surface Duo */
+    * {
+        font-size: 26.7px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 280px) { /* Galaxy Fold */
+    * {
+        font-size: 18.7px;
+    }
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
