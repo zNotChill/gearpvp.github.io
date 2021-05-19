@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 430px;
+    background: #f0f1f1;
+    background-image: url("https://stickmc.de/img/background-v2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ABOUTUS ************************************************************************/
+
+.aboutus {
+    background: #191919;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    padding: 150px;
+}
+
+
+/* LINKS ************************************************************************/
+
+.links {
+    background: linear-gradient(#4286f4, #70d8ff) fixed;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.link-container {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    flex: 1 0 auto;
+    transition: 0.4s;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+
+/* CONTACT ************************************************************************/
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0;
+    background: #191919;
+}
+
+.card {
+    font-size: 25px;
+    background: #191919;
+    color: #fff;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-icon {
+    font-size: 28px;
+    background: #292929;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon {
+    background: none;
+    color: #fff;
+    transform: scale(1.6);
+}
+
+
+/* MEDIA ***********************************************************************/
+
+@media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        padding-top: 270px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 270px;
+    }
+    .aboutus {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+    .smart-info {
+        height: 240px;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
